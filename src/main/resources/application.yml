@@ -1,7 +1,7 @@
-CONSUMER_KEY: 'du1Qi5OFCryXmtP2d5JqNk1O4'
-CONSUMER_SECRET: "Fat027L3vAeCsPF3973hlCQjkdn5fYdqSYDGx9nCt0hdj8PRlc"
-TOKEN: '3024299460-ZMC2PRpaRwiJtTEcUglIWJfBvrNwkdrUiNfUpLg'
-SECRET: 'RBtk7Z6qgN2Bad54FO32VGcuMPdbRqmr6OBqZVd0SvBxK'
+CONSUMER_KEY: 'your consumer key'
+CONSUMER_SECRET: 'your consumer secret'
+TOKEN: 'your token'
+SECRET: 'your secret'
 KAFKA_BROKER: "localhost:9092"
 KAFKA_TOPIC: "topic"
 TWEETER_TOPIC: "elon musk"
