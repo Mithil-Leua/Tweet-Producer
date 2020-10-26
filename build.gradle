@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'org.apache.kafka', name: 'kafka_2.13', version: '2.4.0'
+    compile group: 'org.apache.kafka', name: 'kafka-streams', version: '2.4.0'
+    compile group: 'org.apache.kafka', name: 'kafka-clients', version: '2.4.0'
+    compile group: 'com.gojek', name: 'jfigaro', version: '1.2.2'
+    compile group: 'com.twitter', name: 'hbc-core', version: '2.2.0'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.3.1'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
+}
+
+run {
+    mainClassName = "tweet.TweetProducer"
+}
