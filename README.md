@@ -4,6 +4,15 @@
 
 Given a term, it fetches continuous stream of tweets related to the term using the twitter API. Each tweet is then pushed to given Kafka topic as a message for Ziggurat to read from.
 
+## Pre requisites
+
+You need to run the docker first. 
+```
+docker-compose up
+```
+To analyze tweets produced to topic, run the program over [here](https://github.com/Mithil-Leua/Ziggurat-Tweet-Analysis).
+Make sure the topic in the Kafka topic and broker match for this project and [this](https://github.com/Mithil-Leua/Ziggurat-Tweet-Analysis) project.
+
 ## Dev Environment Setup
 
 1. Install Java8
