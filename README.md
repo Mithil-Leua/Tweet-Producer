@@ -3,6 +3,7 @@
 ## Description
 
 Given a term, it fetches continuous stream of tweets related to the term using the twitter API. Each tweet is then pushed to given Kafka topic as a message for Ziggurat to read from.
+Relevant blog post can be found [here](https://mithil-kumar.medium.com/real-time-twitter-sentiment-analysis-using-ziggurat-3e5c0a4f10b8).
 
 ## Pre requisites
 
